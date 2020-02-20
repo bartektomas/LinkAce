@@ -33,3 +33,7 @@ layout: default
 
 * [System Settings](/docs/v1/configuration/system-settings)
 * [User Settings](/docs/v1/configuration/user-settings)
+
+#### CLI Commands
+
+* [Overview](/docs/v1/cli)
