@@ -9,6 +9,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons/faSearch';
 import { faShareAlt } from '@fortawesome/free-solid-svg-icons/faShareAlt';
 import { faUnlock } from '@fortawesome/free-solid-svg-icons/faUnlock';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons/faCheckCircle';
 
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
@@ -23,6 +24,7 @@ export function initFontAwesome () {
   library.add(faShareAlt);
   library.add(faUnlock);
   library.add(faUser);
+  library.add(faCheckCircle);
 
   library.add(faGithub);
   library.add(faTwitter);
