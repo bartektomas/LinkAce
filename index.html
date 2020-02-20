@@ -171,20 +171,54 @@ URI     : https://colorlib.com
 
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#featuretab-1">Organization &amp; Notes</a>
+        <a class="nav-link active" data-toggle="tab" href="#featuretab-1">Link Monitoring</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#featuretab-2">Search &amp; Filters</a>
+        <a class="nav-link" data-toggle="tab" href="#featuretab-2">Organization &amp; Notes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#featuretab-3">The Bookmarklet</a>
+        <a class="nav-link" data-toggle="tab" href="#featuretab-3">Search &amp; Filters</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#featuretab-4">Private or Public</a>
+        <a class="nav-link" data-toggle="tab" href="#featuretab-4">The Bookmarklet</a>
       </li>
     </ul>
     <div class="tab-content">
       <div class="tab-pane fade bg-white p-3 border border-top-0 show active" id="featuretab-1">
+        <div class="d-flex flex-column flex-lg-row">
+          <div class="align-self-start mr-lg-4 mb-5 mb-lg-0">
+            <span class="fas fa-check-circle fa-fw fa-3x fill-primary"></span>
+          </div>
+          <div>
+
+            <p class="lead">Continuous Link Checks</p>
+            <p>
+              LinkAce will continuously check all of your saved links to make sure that they stay available. Once a link
+              was found either dead or it redirects to another location, you will get an email with the details.
+            </p>
+
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-lg-row mt-3">
+          <div class="align-self-start mr-lg-4 mb-5 mb-lg-0">
+            <span class="fas fa-archive fa-fw fa-3x fill-primary"></span>
+          </div>
+          <div>
+
+            <p class="lead">Backup via the Wayback Machine</p>
+            <p>
+              Links die every day. Content is lost and sometimes there is no way to recover what you found interesting.
+              To prevent issues with your precious links becoming unavailable, LinkAce has a built-in method to back
+              up all of your saved links: automated pings to the <a href="https://archive.org/">Wayback Machine</a>,
+              operated by the Internet Archive.<br>
+              This method allows you to save copies of your links without having to care about storing any backups.
+            </p>
+            <p class="small">Please consider <a href="https://archive.org/donate/">donating to the Internet Archive</a>.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade bg-white p-3 border border-top-0" id="featuretab-2">
         <div class="d-flex flex-column flex-lg-row">
           <div class="align-self-start mr-lg-4 mb-5 mb-lg-0">
             <span class="fas fa-folder fa-3x fa-fw fill-primary"></span>
@@ -223,7 +257,7 @@ URI     : https://colorlib.com
           </div>
         </div>
       </div>
-      <div class="tab-pane fade bg-white p-3 border border-top-0" id="featuretab-2">
+      <div class="tab-pane fade bg-white p-3 border border-top-0" id="featuretab-3">
         <div class="d-flex flex-column flex-lg-row">
           <div class="align-self-start mr-lg-4 mb-5 mb-lg-0">
             <span class="fas fa-search fa-fw fa-3x fill-primary"></span>
@@ -245,7 +279,7 @@ URI     : https://colorlib.com
           </div>
         </div>
       </div>
-      <div class="tab-pane fade bg-white p-3 border border-top-0" id="featuretab-3">
+      <div class="tab-pane fade bg-white p-3 border border-top-0" id="featuretab-4">
         <div class="d-flex flex-column flex-lg-row">
           <div class="align-self-start mr-lg-4 mb-5 mb-lg-0">
             <span class="fas fa-save fa-fw fa-3x fill-primary"></span>
@@ -277,55 +311,7 @@ URI     : https://colorlib.com
           </div>
         </div>
       </div>
-      <div class="tab-pane fade bg-white p-3 border border-top-0" id="featuretab-4">
-        <div class="d-flex flex-column flex-lg-row">
-          <div class="align-self-start mr-lg-4 mb-5 mb-lg-0">
-            <span class="fas fa-folder fa-fw fa-3x fill-primary"></span>
-          </div>
-          <div>
 
-            <p class="lead">Private only</p>
-            <p>
-              By default, LinkAce is private only. This means that guests have no access to any of your bookmarks, no
-              matter if oyu set them to private or public. You are the only one who can see what you are saving.
-            </p>
-            <p class="small">We decided to let you specify if links should be private or not, even if LinkAce itself is
-              set to <em>private only</em>. This way you can keep organizing the bookmarks and can easily switch to
-              public mode later if you want to.</p>
-
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-lg-row mt-3">
-          <div class="align-self-start mr-lg-4 mb-5 mb-lg-0">
-            <span class="fas fa-unlock fa-fw fa-3x fill-primary"></span>
-          </div>
-          <div>
-
-            <p class="lead">Say hi to Strangers</p>
-            <p>
-              If you want, you can make your bookmarks public to anyone on the web with a single configuration. They
-              will then be able to see any bookmarks you saved that are not set to <em>private</em>. This way you can
-              make super cool web tools, articles or portfolios available to your crowd while keeping links to your
-              Google Drive family photo album private.
-            </p>
-
-          </div>
-        </div>
-        <div class="d-none flex-column flex-lg-row mt-3">
-          <div class="align-self-start mr-lg-4 mb-5 mb-lg-0">
-            <span class="fas fa-user fa-fw fa-3x fill-primary"></span>
-          </div>
-          <div>
-
-            <p class="lead">PS: You are not alone</p>
-            <p>
-              You can also invite others to save bookmarks with you. LinkAce can handle unlimited users, separated from
-              each other so private bookmarks stay private.
-            </p>
-
-          </div>
-        </div>
-      </div>
     </div>
 
 
