@@ -20,3 +20,11 @@ If LinkAce found at least one moved link *or* one broken link, it will send an e
 about the moved or broken links. The user can then react to this and check what happened to the link.
 
 Moved or broken links are highlighted in the user interface.
+
+## Disable link checks
+
+There can be several reasons why a link is or becomes unavailable, or broken in terms of LinkAce. if you receive 
+multiple notifications that a link is broken, you can also disable the checks for this particular link. To do so,
+go to the corresponding link details page. On the right hand side you will notice a button "Disable check" and the
+current status. Clicking the button will disable any further checks.  
+If you want to enable checks again, just click the button again.

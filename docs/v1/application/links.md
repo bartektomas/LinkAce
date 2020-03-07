@@ -12,6 +12,17 @@ website. You may also categorize links by adding tags.
 The link overview lists all available links together with some meta information like tags as well as
 the sharing options and links for editing and deleting them.
 
+Links can be displayed in two different formats, which can be changed in the [user settings](/docs/v1/configuration/user-settings.md).
+
+#### Display links as rows
+
+![Preview of the Link overview: rows](/images/screens/v1/linkace_link_index_rows.png)
+
+#### Display links as cards
+
+![Preview of the Link overview: cards](/images/screens/v1/linkace_link_index_cards.png)
+
+
 ## Adding new Links
 
 ![Preview of the Link form](/images/screens/v1/linkace_links_create.png)
@@ -29,7 +40,7 @@ The main form shows you a lot of different fields which will be described in the
 | URL | Yes | Contains the URL of the link you want to add |
 | Title | No | You may set a custom title for the link here. If left blank, LinkAce will try to parse the title from the website. |
 | Description | No | You may set a custom description for the link here. If left blank, LinkAce will try to parse the description from the website. |
-| Category | No | Used to add the link to lists. When you start typing, LinkAce will search for existing tags. If there are none you may add new tags by just entering them here. |
+| List | No | Used to add the link to lists. When you start typing, LinkAce will search for existing lists. If there are none you may add new lists by just entering them here. |
 | Tags | No | Used to add tags for the link. When you start typing, LinkAce will search for existing tags. If there are none you may add new tags by just entering them here. |
 | Is Private | No | Set the privacy mode of the link here. |
 

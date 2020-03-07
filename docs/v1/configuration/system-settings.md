@@ -8,6 +8,11 @@ single-user application for now.
 
 ![System settings preview](/images/screens/v1/linkace_systemsettings.png)
 
+## Update Checks
+
+LinkAce will automatically check for updates on the system settings page. To get this to work, the app pulls information
+about the latest releases from Github and compares it to your currently installed version.
+
 ## Cron Token
 
 A [cron](https://en.wikipedia.org/wiki/Cron) is needed to move certain functionality out of the user actions and

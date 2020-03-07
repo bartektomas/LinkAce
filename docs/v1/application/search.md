@@ -21,6 +21,7 @@ The following table gives you an overview over all search options available.
 | Search Title | If checked, LinkAce will also search for the term in the title field. |
 | Search Description | If checked, LinkAce will also search for the term in the description field. |
 | Private Links only | If checked, LinkAce will only display links which are marked as private. |
+| Broken Links only | If checked, LinkAce will only display links which are marked as broken by the automated link checks. |
 | Category filter | If you select a category here, LinkAce will only display links which are associated with the category. |
 | Tag filter | If you select one or more tags here, LinkAce will only display links which are associated with one of the tags. |
 | Sorting option | This option allows you to sort the results by title, URL or the creation date, ascending or descending respectively. |

@@ -12,14 +12,14 @@ stopped me from customizing the app like I want.
 ## Highlights
 
 * Bookmark links with automatic title and description generation.
-* Private or public links. You decide, which saved links are private or which are accessible to the public.
 * Automated, regular link checks to inform you when a saved link goes offline or is moved to another location.
 * Automated backups of your links via the [Waybackmachine](https://archive.org/web/web.php). All saved links are sent
     to the Waybackmachine which then stores a copy of the site for you.
+* Private or public links. You decide, which saved links are private or which are accessible to the public.
 
 ## Other LinkAce features
 
-* Organize bookmarks in categories and tags
+* Organize bookmarks in lists and tags
 * A bookmarklet to quickly save links from any browser
 * Add notes to links to add thoughts
 * Advanced search for your bookmarks

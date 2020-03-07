@@ -40,11 +40,13 @@ Last but not least, the user settings. The following table gives you an overview
 | Option | Description |
 |:------|:------------|
 | Timezone | Set the correct timezone here to save and display the correct times for all entries. |
+| Open external links in new tabs | If enabled, external links will be opened in new tabs on click, instead of the same tab. |
 | Private Links by default | If enabled, all new links will be private by default. (You still have the option to uncheck this while adding a link.) |
 | Private Notes by default  | If enabled, all new notes will be private by default. |
 | Date format | You can choose the format of all displayed dates here. |
 | Time format | You can choose the format of all displayed times here. |
 | Number of entries in lists | This setting affects hoe many entries are displayed on the overview pages. Please note that displaying 50 or more entries may affect the loading times on low-powered systems. |
+| Display links as... | Links can be displayed in two different formats: as rows with more details including tags, or as smaller cars which show less details but provide a better overview. |
 
 </div>
 </div>
