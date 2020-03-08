@@ -6,8 +6,10 @@ layout: default
 LinkAce is a bookmark manager like Shaarli and other similar tools.  
 I built this tool to have something that fits my personal needs which other bookmark managers couldn't solve,
 even if most features are almost the same. I used Shaarli for a while but I never really felt very comfortable
-with it. Maybe it was the inability to add another layer of taxonomy to saved links or the used template system which
-stopped me from customizing the app like I want.
+with it.
+
+The primary intention of the application is to provide a solid solution to archive links and organize them. Those links
+may be added from the web application, the bookmarklet or a third-party application via the API.
 
 ## Highlights
 
@@ -26,11 +28,18 @@ stopped me from customizing the app like I want.
 * Import existing bookmarks from HTML exports (other methods planned)
 * Implemented support for complete database and app backups to Amazon AWS S3
 
+---
 
-## A note on support and new features
+## A note on Support
 
-As mentioned, I built LinkAce for myself. Therefore I will only provide limited support for the application as well
-as limit my work on it after all needed features are present. However, feature requests are always welcome and I will 
-happily accept contributions.
+LinkAce is a private side-project mainly developed for *myself*. Therefore I cannot guarantee that the app will work 
+without any problems, and I may not answer support requests. **I do not offer any paid customization or support.**
 
-**I do not provide any paid customization or support like installation help!**
+If you need an app with extensive support please consider using another solution.
+
+If you need help or want to report a bug within the application, please open a new [issue](https://github.com/Kovah/LinkAce/issues)
+and describe:
+
+* which version you are using,
+* what your exact problem is,
+* and what you already did to solve the problem.
