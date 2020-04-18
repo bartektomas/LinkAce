@@ -22,10 +22,11 @@ The `.env` file in your LinkAce directory contains some advanced settings that s
     you have to configure LinkAce with working credentials. Go to the `Mail configuration` section in the .env file
     and fill all needed variables.
 
-### 2. Install the Bookmarklet
+### 2. Setup the cron
 
-Visit the user settings, available from the dropdown menu beneath your username. To install the bookmarklet, simply 
-drag the Bookmarklet button into your bookmarks bar.
+The cron is necessary to enable automated backups via the Waybackmachine, enabling regular link checks and app
+backups. You will be presented a cron token and a pre-built cron URL on the system settings page, available also from the
+username dropdown. More information about how to configure a cron can be found in the [System Settings](/docs/v1/configuration/system-settings).
 
 ### 3. Configure basic app settings
 
@@ -33,14 +34,7 @@ On the same page as your Bookmarklet you can find basic app settings like the ti
 privacy defaults. I recommend setting the correct timezone and the date and time formats too. You may also set which
 share buttons should be available when viewing your links.
 
-### 4. Setup the cron
+### 4. Install the Bookmarklet
 
-The cron is necessary to enable automated backups via the Waybackmachine, enabling regular link checks and app 
-backups. You will be presented a cron token and a pre-built cron URL on the system settings page, available also from the
-username dropdown. More information about how to configure a cron can be found in the [System Settings](/docs/v1/configuration/system-settings).
-
-### 5. Configure categories (and tags)
-
-If you want to sort your links with the help of categories and tags, make sure to have some available. While tags can
-be added on-the-fly, categories have to be defined before. You can add new categories by clicking the "Categories"
-dropdown in the menu and then choosing "Add Category".
+Visit the user settings, available from the dropdown menu beneath your username. To install the bookmarklet, simply
+drag the Bookmarklet button into your bookmarks bar.
